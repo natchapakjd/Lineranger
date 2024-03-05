@@ -10,6 +10,7 @@ import "./App.css"
 import ProductDetails from './pages/ProductDetails'
 import Footer from './components/Footer'
 import ProtectRoute from './ProtectRoute'
+import EditUser from './pages/EditUser'
 function App() {
   return (
     <>
@@ -25,7 +26,7 @@ function App() {
             <Route path="register" element={<Register/>}/>  
             <Route path="shop" element={<Shop/>}/>  
             <Route path="shop/:id" element={ProtectRoute(<ProductDetails/>)}/>  
-            
+            <Route path = "profile" element={ProtectRoute(<EditUser/>)}/>
             
           </Route>
 

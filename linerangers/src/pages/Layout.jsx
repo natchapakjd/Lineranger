@@ -44,10 +44,10 @@ const Layout = () => {
                 <div className='flex  items-center text-white text-2xl '>เลือกดูทั้งหมด</div>
             </div>
             <div className="flex flex-col md:grid grid-rows-2 grid-cols-2 gap-2">
-                <img className="  hover:border  rounded-xl md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1196744895206010950/sato.png?ex=65b8be89&is=65a64989&hm=1c9e57ebaf0d7675e2ce9f2cc062425cbe583bbac88128ecd2b0bed99857ac06&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
-                <img className="  hover:border  rounded-xl md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1197477065226719303/sato1.png?ex=65bb686c&is=65a8f36c&hm=8cee0123f23499688af5e8febead2833a2f806bc97f6681310a965f803f589a3&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
-                <img className="  hover:border  rounded-xl md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1197477056867483668/sato3.png?ex=65bb686a&is=65a8f36a&hm=30cd0a775bda528fb2d9af310787950ae2b92e698c15146608ab0738de8b3821&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
-                <img className=" hover:border  rounded-xl  md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1197477048025882635/sato2.png?ex=65bb6868&is=65a8f368&hm=8de2105722d1ccf7510bd4a2d3e77fc7630069447c9d0ade613c08a572e598ca&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
+                <img className="hover:border  rounded-xl md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1196744895206010950/sato.png?ex=65b8be89&is=65a64989&hm=1c9e57ebaf0d7675e2ce9f2cc062425cbe583bbac88128ecd2b0bed99857ac06&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
+                <img className="hover:border  rounded-xl md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1197477065226719303/sato1.png?ex=65bb686c&is=65a8f36c&hm=8cee0123f23499688af5e8febead2833a2f806bc97f6681310a965f803f589a3&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
+                <img className="hover:border  rounded-xl md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1197477056867483668/sato3.png?ex=65bb686a&is=65a8f36a&hm=30cd0a775bda528fb2d9af310787950ae2b92e698c15146608ab0738de8b3821&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
+                <img className="hover:border  rounded-xl  md:w-400" src="https://media.discordapp.net/attachments/1189585217057476608/1197477048025882635/sato2.png?ex=65bb6868&is=65a8f368&hm=8de2105722d1ccf7510bd4a2d3e77fc7630069447c9d0ade613c08a572e598ca&=&format=webp&quality=lossless&width=1440&height=444" alt="" />
             </div>
 
             <div className="flex justify-between  my-5 ">

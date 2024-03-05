@@ -15,6 +15,20 @@ router.get('/order', (req, res) => {
     });
 });
 
+router.get('/order/:id', (req, res) => {
+    const id = req.params.id
+    const query = "SELECT `order`.date, product.name, `order`.quantity, `order`.total_price FROM `order` JOIN product ON `order`.p_id = product.id WHERE username = ?;" // Corrected table name
+
+    db.query(query,[id] ,(err, result) => {
+        if (err) {
+            console.log(err);
+            res.status(500).json({ error: "Failed to fetch orders" });
+        } else {
+            res.json(result);
+        }
+    });
+});
+
 router.post("/order", async (req, res) => {
     const id = req.body.id
     const quantity =req.body.count

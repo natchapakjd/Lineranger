@@ -77,7 +77,7 @@ const ProductDetails = () => {
                         title: "สั่งซื้อสินค้าสำเร็จ",
                         icon: "success"
                     });
-                    window.location.href ='/shop'
+                    window.location.href ='/profile'
 
                 } catch (err) {
                     console.log(err)

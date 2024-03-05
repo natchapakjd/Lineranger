@@ -7,6 +7,7 @@ const product = require("./routes/product")
 const app = express();
 const bodyParser = require('body-parser')
 const order =require('./routes/order')
+const tracsaction = require('./routes/transaction')
 app.use(bodyParser.json())
 app.use(express()); // ต้องกำหนด express.json() ก่อน cors()
 
@@ -21,6 +22,7 @@ app.use(users);
 app.use(easyslip)
 app.use(auths)
 app.use(product)
+app.use(tracsaction)
 app.use(order)
 const port = 5000;
 app.listen(port, () => {
